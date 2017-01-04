@@ -1,0 +1,394 @@
+/* CSS Reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+body {
+	line-height: 1
+}
+ol, ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+/*Styles and positioning*/
+body {
+	background: #fafafa;
+	color: #333
+}
+.hero-unit {
+	margin: 50px auto 0;
+	width: 300px;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 30px;
+	background-color: #eee;
+	border-radius: 6px;
+	padding: 60px
+}
+.hero-unit h1 {
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: -1px
+}
+.browsehappy {
+	margin: .2em 0;
+	background: #ccc;
+	color: #000;
+	padding: .2em 0
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+body {
+	line-height: 1
+}
+ol, ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:after, blockquote:before, q:after, q:before {
+	content: '';
+	content: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+a {
+	text-decoration: none;
+	color: inherit
+}
+body {
+	font-family: Avenir;
+	height: 100%
+}
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #333;
+	text-align: center;
+	padding: 20px 0
+}
+.header {
+	background: url(/wealthbuilder/images/images.png) no-repeat;
+	background-size: cover;
+	/*height: 218px;*/
+	-webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .4);
+	box-shadow: 0 3px 4px rgba(0, 0, 0, .4);
+	margin: 0 auto;
+	width: 1024px;
+	min-width: 768px
+}
+.logo {
+	background: url(/wealthbuilder/images/crowngate_logo.png) center no-repeat;
+	background-size: contain;
+	width: 462px;
+	height: 218px;
+	margin: 0 auto
+}
+.menu {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px
+}
+.menu li {
+	display: inline-block;
+	opacity: .5;
+	font-size: 16px;
+	line-height: 40px;
+	height: 40px;
+	text-transform: uppercase;
+	margin-left: 5px;
+	width: 120px;
+	text-align: center;
+	font-family: Avenir;
+	cursor: pointer
+}
+.active, .menu li:active {
+	opacity: 1 !important
+}
+.active {
+	opacity: 1
+}
+.mainarea {
+	width: 768px;
+	/*height: 1465px;*/
+	margin: 40px auto
+}
+.propertyselect {
+	width: 240px;
+	/*height: 172px;*/
+	margin: 0 auto
+}
+.propertyselect .arrow-holder {
+	opacity: 0;
+	height: 0
+}
+.input-left {
+	float: left;
+	width: 370px
+}
+.input-right {
+	float: right;
+	width: 370px
+}
+.propertytype {
+	width: 240px;
+	height: 71px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 6px 0
+}
+.ptype {
+	width: 240px;
+	height: 71px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 6px 0
+}
+.box-label, .box-result-label {
+	font-size: 14px;
+	color: #939393;
+	padding-top: 4px;
+	text-align: center
+}
+input {
+	height: 40px;
+	background-color: #EEE;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #000;
+	font-size: 24px;
+	color: #333;
+	width: 240px;
+	text-align: center;
+	font-family: Avenir;
+	padding: 0;
+	-webkit-appearance: none;
+	border-radius: 0
+}
+input:focus, textarea:focus {
+	outline: 0
+}
+select {
+	width: 240px;
+	height: 40px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #000;
+	font-size: 24px;
+	color: #333;
+	padding: 0 5px;
+	text-align: center;
+	-webkit-appearance: none;
+	appearance: none;
+	background: url(/wealthbuilder/images/dropdown_img.png) 100% 100% no-repeat #eee;
+	font-family: Avenir
+}
+select:focus {
+	outline: 0
+}
+
+#select-type{
+	text-align-last: center;
+	padding: 5px;
+}
+.select-top {
+	background-color: transparent;
+	text-align: center
+}
+.box-result-small {
+	width: 240px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 6px 0
+}
+.box-result-value {
+	width: 240px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #EEE;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 40px
+}
+.box-result-medium {
+	width: 240px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 6px 0
+}
+.box-result-medium .box-result-value {
+	width: 240px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #EEE;
+	font-size: 40px;
+	color: #1CB637;
+	font-weight: 700;
+	line-height: 70px;
+	-webkit-font-smoothing: antialiased;
+	font-family: Avenir
+}
+.box-result-large .box-result-value {
+	background-color: transparent;
+	font-size: 100px;
+	color: #1CB637;
+	text-align: center;
+	height: 80px;
+	width: 100%
+}
+.box-result-large, .large-text {
+	width: 100%
+}
+.right-result {
+	padding-top: 75px
+}
+.box-result-small-area {
+	height: 210px
+}
+.result-area {
+	padding: 15px 0
+}
+.initial-results-left {
+	float: left;
+	width: 370px
+}
+.initial-results-right {
+	float: right;
+	width: 370px;
+	margin-top: -50px
+}
+.initial-results-right .box-result-medium {
+	margin-top: 50px
+}
+.final-results {
+	padding: 15px 0 0
+}
+.final-results-top {
+	padding-top: 20px
+}
+.final-results-bottom {
+	padding-top: 80px
+}
+.arrowholder {
+	width: 30px;
+	margin: 0 auto;
+	padding: 15px
+}
+#property-value {
+	height: 128px !important;
+	margin-top: 70px !important
+}
+.arrow {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #8DDA9B
+}
+.arrow-merging {
+	background: url(/wealthbuilder/images/images.png) 1px -635px no-repeat;
+	height: 138px;
+	width: 428px;
+	margin: 0 auto 85px
+}
+.clear {
+	clear: both
+}
+.unselected {
+	color: #BBB;
+	font-weight: 400
+}
+.error-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #EEE;
+	z-index: 9999999
+}
+.error-wrapper ul {
+	list-style: disc;
+	padding-left: 20px
+}
+.error-wrapper .text {
+	font-size: 20px
+}
+.error-wrapper .logo img {
+	width: 150px;
+	margin-left: -10px;
+	margin-bottom: -20px
+}
+.error-wrapper .error-page-wrapper {
+	top: 159px;
+	margin-top: 0
+}
+.mainarea .box-input.percentage {
+	pointer-events: none;
+	background: url(/wealthbuilder/images/dropdown_img.png) 100% 100% no-repeat #eee
+}
+.mainarea select.rent-percentage {
+	opacity: 0;
+	position: absolute
+}
+.mainarea .propertytype select {
+	opacity: 0;
+	position: absolute;
+	display: block
+}
+.mainarea .propertytype .select-value {
+	width: 240px;
+	/*height: 40px;*/
+	line-height: 40px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #000;
+	font-size: 24px;
+	color: #333;
+	text-align: center;
+	font-family: Avenir;
+	background: url(/wealthbuilder/images/dropdown_img.png) 100% 100% no-repeat #eee
+}
+.mainarea .propertytype .select-value.unselected {
+	color: #BBB;
+	font-weight: 400
+}
+footer {
+	text-align: justify;
+	font-size: 14px;
+	color: #939393;
+	margin-top: 40px;
+	line-height: 1.25em
+}
